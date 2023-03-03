@@ -1,3 +1,9 @@
+server-dependency (1.1.7-0ubuntu22.04u2) UNRELEASED; urgency=medium
+
+  * Update Copyright fo 2023.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 03 Mar 2023 09:26:49 +0000
+
 server-dependency (1.1.7-0ubuntu22.04u1) jammy; urgency=medium
 
   * Create jammy branch.
