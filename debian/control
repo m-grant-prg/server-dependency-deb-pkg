@@ -1,0 +1,22 @@
+Source: server-dependency
+Section: misc
+Priority: extra
+Maintainer: Mark Grant <m.grant.prg@gmail.com>
+Build-Depends: debhelper-compat (= 13), bash (>= 4.3), tar(>= 1.26),
+	txt2man(>= 1.5), txt2manwrap(>=1.0)
+Standards-Version: 4.5.1
+Vcs-Git: https://github.com/m-grant-prg/server-dependency.git
+Vcs-Browser: https://github.com/m-grant-prg/server-dependency.git
+
+Package: server-dependency
+Architecture: all
+Depends: bash (>= 4.3), tar(>= 1.26), bsdutils(>=2.25.2), iputils-ping,
+	${misc:Depends}
+Description: Dependency On Server At Boot
+ This script reads a list of servers from the config file server.list and
+ determines whether they are contactable. If they are, commands stored in the
+ file server-name.available will be executed, if they are not, commands stored
+ in the file server-name.unavailable will be executed. The existence of these
+ files is not obligatory. Whilst this script could be run at any time, it is
+ probably most useful at boot and installs a systemd service file to this
+ effect.
