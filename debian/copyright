@@ -3,11 +3,11 @@ Upstream-Name: server-dependency
 Source: https://github.com/m-grant-prg/server-dependency
 
 Files: *
-Copyright: (C) 2018-2021 Mark Grant <m.grant.prg@gmail.com>
+Copyright: (C) 2018-2023 Mark Grant <m.grant.prg@gmail.com>
 License: GPL-3.0-only
 
 Files: debian/*
-Copyright: (C) 2018-2021 Mark Grant <m.grant.prg@gmail.com>
+Copyright: (C) 2018-2023 Mark Grant <m.grant.prg@gmail.com>
 License: GPL-3.0-only
 
 License: GPL-3.0-only
