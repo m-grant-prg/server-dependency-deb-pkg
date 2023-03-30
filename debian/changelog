@@ -1,8 +1,8 @@
-server-dependency (1.2.1-0ubuntu20.04u1) UNRELEASED; urgency=medium
+server-dependency (1.2.1-0ubuntu20.04u1) focal; urgency=medium
 
   * Merge new upstream release.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Thu, 30 Mar 2023 09:25:30 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 30 Mar 2023 09:26:34 +0100
 
 server-dependency (1.1.7-0ubuntu20.04u2) focal; urgency=medium
 
