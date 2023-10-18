@@ -1,3 +1,11 @@
+server-dependency (1.1.8+deb10u1) UNRELEASED; urgency=medium
+
+  * Update Copyright for 2023
+  * dosab.sh has been renamed dosab
+  * New upstream release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 18 Oct 2023 15:08:07 +0100
+
 server-dependency (1.1.7-deb10u1) buster; urgency=medium
 
   * New upstream release.
