@@ -1,13 +1,13 @@
 [Unit]
 Description=Dependency On Server At Boot
-Documentation=man:dosab.sh(8)
+Documentation=man:dosab(8)
 After=network-online.target remote-fs.target
 Wants=network-online.target
 
 [Service]
 Type=exec
 
-ExecStart=/usr/sbin/dosab.sh
+ExecStart=/usr/sbin/dosab
 Restart=no
 
 [Install]
