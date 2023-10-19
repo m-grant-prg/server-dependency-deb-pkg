@@ -1,9 +1,9 @@
-server-dependency (1.2.2-0ubuntu20.04u1) UNRELEASED; urgency=medium
+server-dependency (1.2.2-0ubuntu20.04u1) focal; urgency=medium
 
   * dosab.sh has been renamed dosab
   * New upstream release
 
- -- Mark Grant <m.grant.prg@gmail.com>  Thu, 19 Oct 2023 08:36:27 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 19 Oct 2023 08:37:31 +0100
 
 server-dependency (1.2.1-0ubuntu20.04u1) focal; urgency=medium
 
