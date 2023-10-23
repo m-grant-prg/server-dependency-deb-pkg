@@ -2,15 +2,15 @@ Source: server-dependency
 Section: misc
 Priority: extra
 Maintainer: Mark Grant <m.grant.prg@gmail.com>
-Build-Depends: debhelper-compat (= 13), bash (>= 4.3), tar(>= 1.26),
-	txt2man(>= 1.5), txt2manwrap(>=1.0)
+Build-Depends: debhelper-compat (= 13), bash, tar,
+	txt2man, txt2manwrap
 Standards-Version: 4.5.1
 Vcs-Git: https://github.com/m-grant-prg/server-dependency.git
 Vcs-Browser: https://github.com/m-grant-prg/server-dependency.git
 
 Package: server-dependency
 Architecture: all
-Depends: bash (>= 4.3), tar(>= 1.26), bsdutils(>=2.25.2), iputils-ping,
+Depends: bash, tar, bsdutils, iputils-ping,
 	mgrant-obs-deb-keyring,
 	${misc:Depends}
 Description: Dependency On Server At Boot
