@@ -1,9 +1,18 @@
-server-dependency (1.3.1-0ubuntu22.04u1) UNRELEASED; urgency=medium
+server-dependency (1.3.1-0ubuntu22.04u2) jammy; urgency=medium
 
   * dosab.sh has been renamed dosab
   * New upstream release
+  * Remove versions from Depends fields, too old
+  * Remove unnecessary txt2man Depends
+  * Update editorconfig to v1.0.6
+  * Update gitattributes to v1.0.5
+  * Update gitignore to v1.0.12
+  * Update mailmap to v1.0.4
+  * Update Copyright for 2024
+  * Remove [Build-]Depends on essential packages
+  * Correct source format to quilt
 
- -- Mark Grant <m.grant.prg@gmail.com>  Thu, 19 Oct 2023 16:02:08 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 11 Mar 2024 14:21:48 +0000
 
 server-dependency (1.3.0-0ubuntu22.04u1) jammy; urgency=medium
 
