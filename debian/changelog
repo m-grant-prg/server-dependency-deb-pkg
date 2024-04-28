@@ -1,3 +1,19 @@
+server-dependency (1.3.2+deb13u1) trixie; urgency=medium
+
+  * New upstream release
+  * Remove versions from Depends fields, too old
+  * Remove unnecessary txt2man Depends
+  * Update editorconfig to v1.0.6
+  * Update gitattributes to v1.0.5
+  * Update gitignore to v1.0.12
+  * Update mailmap to v1.0.4
+  * Update Copyright for 2024
+  * Remove [Build-]Depends on essential packages
+  * Add lintian override for watch file
+  * Silence lintian changelog-file-missing-explicit-entry warning
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 28 Apr 2024 14:24:28 +0100
+
 server-dependency (1.3.1+deb13u1) trixie; urgency=medium
 
   * dosab.sh has been renamed dosab
